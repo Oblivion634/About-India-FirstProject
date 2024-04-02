@@ -1,0 +1,168 @@
+.full
+{
+    background-color:rgb(24, 23, 28) ;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+H2
+{
+    font-size: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top: 2%;
+
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:max-content;
+  }
+
+.graph
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    width: 1150px;
+    height: 60px;
+    display: inline-block;
+  
+  
+  }
+  
+  .nav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 98px;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 30 px;
+    border: none;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .dropdown {display: inline-block;}
+  
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  footer
+    {
+      text-align: center;
+      column-count: 2;
+      column-gap: 50px;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 20px;
+      font-size: 18px;
+      color: #f1f1f1;
+      background-color: black;
+    }
+  
+    .left
+    {
+      text-align: left;
+    }
+  
+    .right
+    {
+      text-align: right;
+    }
+
+    
+.search-bar input{
+  width:100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'DM Serif Display', serif;
+  padding-left: 10px;
+}
+
+.search-bar
+{
+    width:250px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    width:100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    padding-left: 10px;
+}
+
+.search-bar input button{
+ width : 40px;
+ height:100%;
+ background: transparent;
+ outline: none;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
+
+.search-bar input::placeholder
+{
+    color: #fff;
+}
+
+.search-bar button i 
+{
+    font-size: 22px;
+    background-color:#fff;
+}

@@ -1,0 +1,53 @@
+body
+{
+  background-image: url('images/Welcome.png');
+  background-repeat: no-repeat;
+}
+
+ul
+{
+  text-align: left;
+}
+
+a:hover
+{
+background-color: aquamarine;
+}
+
+footer
+  {
+    text-align: center;
+    column-count: 2;
+    column-gap: 50px;
+    font-size: 18px;
+    color: #f1f1f1;
+    background-color: black;
+    padding: 0px;
+    margin: 0%;
+  }
+
+  .left
+  {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+  }
+
+  .right
+  {
+    text-align: right;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+  }
+
+  .list
+  {
+    padding-left: 760px;
+    padding-top: 230px;
+    padding-right:200px ;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 23px;
+  }

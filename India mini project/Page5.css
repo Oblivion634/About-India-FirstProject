@@ -1,0 +1,337 @@
+.nav {
+    background-color: black;
+    color: white;
+    width: 1166px;
+    height: 60px;
+    display: inline-block;
+
+
+}
+
+.nav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 98px;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 30 px;
+    border: none;
+    font-family: 'DM Serif Display', serif;
+}
+
+.dropdown {display: inline-block;}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'DM Serif Display', serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;
+padding: 0%;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  width: 1250px;
+  box-sizing: border-box;
+  height: 300px;
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.card1 {
+  width: 1262px;
+  height: 400px;
+  display: flex;
+  align-self: center;
+  align-items: left;
+  background: rgb(56, 56, 56);
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__left1 {
+  flex: 0.4;
+  padding: 20px;
+  text-align: justify;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: larger;
+}
+
+.card__right1 {
+  flex: 0.6;
+  height: 100%;
+  background: red;
+  background: url(images/Indus-valley-harappan-diorama.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.card2 {
+    width: 1262px;
+    height: 447px;
+    display: flex;
+    align-self: right;
+    background: rgb(56, 56, 56);
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card__right2 {
+    flex: 0.4;
+    padding: 20px;
+    text-align:justify;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: larger;
+  }
+  
+  .card__left2 {
+    flex: 0.6;
+    height: 100%;
+    background: red;
+    background: url(images/vedic-age-1200x900.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0% 0%, 72% 0%, 100% 100%, 0% 100%);
+  }
+
+  .card3 {
+    width: 1262px;
+    height: 449px;
+    display: flex;
+    align-self: center;
+    align-items: left;
+    background: rgb(56, 56, 56);
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card__left3 {
+    flex: 0.4;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: larger;
+  }
+  
+  .card__right3 {
+    flex: 0.6;
+    height: 100%;
+    background: red;
+    background: url(images/dharmadispatch_2022-08_677579cb-c67b-4921-8f84-3a8c8467c4bc_Mughal_Debauch.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+  .card4 {
+      width: 1262px;
+      height: 535px;
+      display: flex;
+      align-self: right;
+      background: rgb(56, 56, 56);
+      box-sizing: border-box;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    }
+  
+    .card__right4 {
+      flex: 0.4;
+      padding: 20px;
+      text-align:justify;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: larger;
+    }
+    
+    .card__left4 {
+      flex: 0.6;
+      height: 100%;
+      background: red;
+      background: url(images/Madras-Army-gty-56a486ef3df78cf77282d99c.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      clip-path: polygon(0% 0%, 72% 0%, 100% 100%, 0% 100%);
+    }
+  
+    .card5 {
+        width: 1262px;
+        height: 465px;
+        display: flex;
+        align-self: center;
+        align-items: left;
+        background: rgb(56, 56, 56);
+        box-sizing: border-box;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      
+      .card__left5 {
+        flex: 0.4;
+        padding: 20px;
+        text-align: justify;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: larger;
+      }
+      
+      .card__right5 {
+        flex: 0.6;
+        height: 100%;
+        background: red;
+        background: url(images/illuminated-city-skyline-dusk-bustling-traffic-generated-by-ai.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        clip-path: polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%);
+      }
+      
+
+.intro
+{
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    align-items: center;
+}
+
+footer
+  {
+    text-align: center;
+    column-count: 2;
+    column-gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #f1f1f1;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .left
+  {
+    text-align: left;
+  }
+
+  .right
+  {
+    text-align: right;
+  }
+
+  
+.search-bar input{
+    width:100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    padding-left: 10px;
+}
+
+.search-bar
+{
+    width:250px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    width:100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    padding-left: 10px;
+}
+
+.search-bar input button{
+ width : 40px;
+ height:100%;
+ background: transparent;
+ outline: none;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
+
+.search-bar input::placeholder
+{
+    color: #fff;
+}
+
+.search-bar button i 
+{
+    font-size: 22px;
+    background-color:#fff;
+}
